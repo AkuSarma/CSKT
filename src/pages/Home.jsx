@@ -140,10 +140,46 @@ const Home = () => {
         </form>
       </section>
       <footer>
-        <p>&copy; CSKT Industries</p>
-        <p>507 Graydon Dr, Coraopolis, PA 15108, USA</p>
-        <p>Phone: +1 412-445-5745</p>
-        <p>Email: contactsales@csktindustries.com</p>
+        <div className="container">
+          <div className="grid">
+            <div>
+              <h3>© CSKT Industries</h3>
+              <p>
+                Leading technology solutions provider committed to excellence and innovation.
+              </p>
+            </div>
+            <div className="contact-info">
+              <h3>Contact Info</h3>
+              <p>
+                <span>📧</span> contact@abcindia.com
+              </p>
+              <p>
+                <span>📱</span> +1 412-445-5745
+              </p>
+              <p>
+                <span>📍</span> 507 Graydon Dr, Coraopolis, PA 15108, USA
+              </p>
+            </div>
+            <div>
+              <h3>Quick Links</h3>
+              <ul>
+                <li>
+                  <span>Privacy Policy</span>
+                </li>
+                <li>
+                  <span>Terms of Service</span>
+                </li>
+                <li>
+                  <span>Support</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="bottom-bar">
+            <p>© {new Date().getFullYear()} CSKT Industries. All rights reserved.</p>
+            <p>CSKT Industries | Mark Den | +1 412-445-5745</p>
+          </div>
+        </div>
       </footer>
     </div>
   );
