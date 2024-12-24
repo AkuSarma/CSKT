@@ -181,7 +181,7 @@ const Home = () => {
               © {new Date().getFullYear()} Ready-Young Industries. All rights
               reserved.
             </p>
-            <p>Ready-Young Industries | Mark Den | +1 412-445-5745</p>
+            <p>Ready-Young Industries | +1 412-445-5745</p>
           </div>
         </div>
       </footer>
