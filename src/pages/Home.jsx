@@ -52,13 +52,13 @@ const Home = () => {
         <button>Learn More</button>
       </section>
       <section className="about">
-        <h2>About CSKT Industries</h2>
+        <h2>About Ready-Young Industries</h2>
         <div className="about-section">
           <img src={pipeline} alt="" />
           <div className="about-section-text">
             <h3>Our Commitment to Quality</h3>
             <p>
-              At CSKT Industries, we committed to producing high-quality
+              At Ready-Young Industries, we committed to producing high-quality
               chemical products that meets the strictest industry standards. We
               use the lates technology and employ a rigorous quality control
               process to ensure that our products meet or exceed our customers'
@@ -70,8 +70,8 @@ const Home = () => {
           <div className="about-section-text">
             <h3>Our Global Reach</h3>
             <p>
-              With a presence in over 50 countries, CSKT Industries, is able to
-              serve customers around the world. We have a network of
+              With a presence in over 50 countries, Ready-Young Industries, is
+              able to serve customers around the world. We have a network of
               distributors and partners that help us deliver our products and
               services to customers in every corner of the globe
             </p>
@@ -83,10 +83,10 @@ const Home = () => {
           <div className="about-section-text">
             <h3>Our Innovation</h3>
             <p>
-              CSKT Industries, is at the forefront of innovation in the chemical
-              industry. Our team of scientists and engineers are constantly
-              developing new products and processes to meet the evolving needs
-              of our customers and the industry
+              Ready-Young Industries, is at the forefront of innovation in the
+              chemical industry. Our team of scientists and engineers are
+              constantly developing new products and processes to meet the
+              evolving needs of our customers and the industry
             </p>
           </div>
         </div>
@@ -116,14 +116,14 @@ const Home = () => {
             Message on whatsapp
           </a>
         </button>
-        <h2>CSKT Industries.</h2>
+        <h2>Ready-Young Industries.</h2>
         <h2>Hours</h2>
         <p>
           Open today <span>09:00 am - 05:00 pm</span>
         </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.630139261109!2d-80.1443441884063!3d40.48344677130978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88345f1d96e0509d%3A0xa976fb58c381419c!2s507%20Graydon%20Dr%2C%20Coraopolis%2C%20PA%2015108%2C%20USA!5e0!3m2!1sen!2sin!4v1735005747297!5m2!1sen!2sin"
-          title="CSKT Industries Location"
+          title="Ready-Young Industries Location"
           allowfullscreen="true"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
@@ -143,15 +143,16 @@ const Home = () => {
         <div className="container">
           <div className="grid">
             <div>
-              <h3>© CSKT Industries</h3>
+              <h3>© Ready-Young Industries</h3>
               <p>
-                Leading technology solutions provider committed to excellence and innovation.
+                Leading technology solutions provider committed to excellence
+                and innovation.
               </p>
             </div>
             <div className="contact-info">
               <h3>Contact Info</h3>
               <p>
-                <span>📧</span> contact@abcindia.com
+                <span>📧</span> knock@ready-young.com
               </p>
               <p>
                 <span>📱</span> +1 412-445-5745
@@ -176,8 +177,11 @@ const Home = () => {
             </div>
           </div>
           <div className="bottom-bar">
-            <p>© {new Date().getFullYear()} CSKT Industries. All rights reserved.</p>
-            <p>CSKT Industries | Mark Den | +1 412-445-5745</p>
+            <p>
+              © {new Date().getFullYear()} Ready-Young Industries. All rights
+              reserved.
+            </p>
+            <p>Ready-Young Industries | Mark Den | +1 412-445-5745</p>
           </div>
         </div>
       </footer>
