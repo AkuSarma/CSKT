@@ -117,6 +117,48 @@
   margin-top: 2rem;
 }
 
+/* subscribe section */
+.subscribe {
+  text-align: center;
+  padding: 2rem 10vw;
+  background-color: #f8f8f8;
+}
+
+.subscribe h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.subscribe p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.subscribe input[type="email"] {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.subscribe button {
+  background-color: #25D366;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* footer section */
 footer {
   background-color: #333;
@@ -128,4 +170,110 @@ footer {
 footer p {
   margin: 0.5rem 0;
   font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .home .hero {
+    padding: 0 5vw;
+  }
+
+  .home .hero p {
+    font-size: 3rem;
+  }
+
+  .home .hero button {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .about h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+    padding: 0 5vw;
+  }
+
+  .about-section img {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .about-section-text {
+    width: 100%;
+  }
+
+  .all-img {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 5vw;
+  }
+
+  .contact {
+    padding: 2rem 5vw;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+
+  .contact button {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .subscribe {
+    padding: 2rem 5vw;
+  }
+
+  .subscribe h2 {
+    font-size: 2rem;
+  }
+
+  .subscribe p {
+    font-size: 1rem;
+  }
+
+  .subscribe form {
+    flex-direction: column;
+  }
+
+  .subscribe input[type="email"] {
+    margin: 0 0 1rem 0;
+  }
+
+  footer {
+    padding: 1rem 0;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .hero p {
+    font-size: 2rem;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .all-img {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe h2 {
+    font-size: 1.5rem;
+  }
+
+  .subscribe p {
+    font-size: 0.9rem;
+  }
 }

@@ -6,10 +6,44 @@ import loader from '../assets/loader.jpg';
 import pforphoto from '../assets/pforphoto.jpg';
 import pipeline from '../assets/pipeline.jpg';
 import sunset from '../assets/sunset.jpg';
+import { ToastContainer, toast, Bounce } from "react-toastify"; // Import Bounce
 
 const Home = () => {
+
+  const notify = () =>
+    toast.success("Successfully signed in", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    e.target.reset();
+    notify();
+  };
+
   return (
     <div className="home">
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce}
+      />
       <section className="hero">
         <p>Innovating</p>
         <p>for a</p>
@@ -94,6 +128,16 @@ const Home = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+      </section>
+      <section className="subscribe">
+        <h2>Subscribe to our newsletter</h2>
+        <p>
+          Get 10% of on the first order when you subscribe to our newsletter
+        </p>
+        <form onSubmit={handleSubmit}>
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit">Subscribe</button>
+        </form>
       </section>
       <footer>
         <p>&copy; CSKT Industries</p>
